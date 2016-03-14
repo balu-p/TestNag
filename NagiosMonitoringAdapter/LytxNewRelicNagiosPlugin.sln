@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LytxNewRelicNagiosPlugin", "Plugin\LytxNewRelicNagiosPlugin.csproj", "{BD81205C-54AD-4DC7-96E2-4B893FF4358D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LytxNewRelicPluginCore", "Core\LytxNewRelicPluginCore.csproj", "{1DF6BC2B-D866-42C6-A503-25B198E12254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LytxNewRelicPluginTest", "Test\LytxNewRelicPluginTest.csproj", "{B32A0FA1-C165-48B3-ABDB-B2FD512A37CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD81205C-54AD-4DC7-96E2-4B893FF4358D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD81205C-54AD-4DC7-96E2-4B893FF4358D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD81205C-54AD-4DC7-96E2-4B893FF4358D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD81205C-54AD-4DC7-96E2-4B893FF4358D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF6BC2B-D866-42C6-A503-25B198E12254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF6BC2B-D866-42C6-A503-25B198E12254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF6BC2B-D866-42C6-A503-25B198E12254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF6BC2B-D866-42C6-A503-25B198E12254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32A0FA1-C165-48B3-ABDB-B2FD512A37CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32A0FA1-C165-48B3-ABDB-B2FD512A37CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32A0FA1-C165-48B3-ABDB-B2FD512A37CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32A0FA1-C165-48B3-ABDB-B2FD512A37CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
